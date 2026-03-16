@@ -1,0 +1,39 @@
+wordpress:
+  base_url: https://axis-india.com/wp-json
+  forms:
+    catalogue_download:
+      form_id: 57
+      report_column: "Catalogue downloads"
+    sales_inquiry:
+      form_id: XX
+      report_column: "Sales Inquiry"
+    footer_form:
+      form_id: XX
+      report_column: "Footer form"
+    get_prices:
+      form_id: XX
+      report_column: "Get Prices now"
+    chatbot:
+      form_id: XX
+      report_column: "Chat Bot"
+  ebook_keywords:
+    "Ebook Arch":
+      - "earthing"
+      - "architecture"
+      - "grounding"
+    "HST":
+      - "heat shrink"
+      - "HST"
+    "ESE":
+      - "ESE"
+      - "early streamer"
+    "Substation":
+      - "substation"
+    "LP Stds":
+      - "lightning protection standards"
+      - "LP standards"
+
+report:
+  india_location_value: "India"
+  timezone: "Asia/Kolkata"
+  output_format: "Total(India)"  # e.g., "21(11)"
