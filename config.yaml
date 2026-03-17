@@ -19,7 +19,7 @@ wordpress:
     chatbot:
       form_id: XX
       report_column: "Chat Bot"
-
+Uses [WordPress Application Passwords](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/).
   # Flamingo "channel" name → internal report key
   # These are the CF7 form titles as stored in Flamingo inbound messages.
   flamingo_channels:

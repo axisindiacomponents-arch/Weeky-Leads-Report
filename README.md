@@ -33,8 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### Authentication
-
-This script uses [WordPress Application Passwords](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/).
+Uses [WordPress Application Passwords](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/).
 
 1. In WordPress Admin → Users → your user profile, scroll to
    **Application Passwords**, create one named `n8n-leads-api` (or similar).
