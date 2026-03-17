@@ -1,5 +1,8 @@
 wordpress:
   base_url: https://axis-india.com/wp-json
+  # Application Password username — password is read from WORDPRESS_APP_PASSWORD env var
+  auth_username: Editor_account
+
   forms:
     catalogue_download:
       form_id: 57
@@ -16,6 +19,18 @@ wordpress:
     chatbot:
       form_id: XX
       report_column: "Chat Bot"
+
+  # Flamingo "channel" name → internal report key
+  # These are the CF7 form titles as stored in Flamingo inbound messages.
+  flamingo_channels:
+    "PDF Download":           catalogue
+    "sales enquiry 2":        sales
+    "Footer Contact form":    footer
+    "Get Prices":             prices
+    "Popup Form":             popup
+    "Ebook Archive Page":     ebooks
+    "Substation Earthing":    ebooks   # merged into ebooks bucket
+
   ebook_keywords:
     "Ebook Arch":
       - "earthing"
